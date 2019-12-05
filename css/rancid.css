@@ -1,0 +1,303 @@
+#bacheca{
+    width: 1250px;
+    height: auto;
+    margin-left: auto;
+    margin-right: auto;
+    background-color: green;
+    border-radius: 25px;
+    border: 3px outset gray;
+    margin-top: 15px;
+    margin-bottom: 15px; 
+    overflow: hidden;
+}
+
+.locandina{    
+    width: 100px;
+    height: 150px;
+    position: relative;
+    float: left;
+    margin: 34px;;
+    border: 5px outset gray;
+}
+
+.locandina:hover{    
+    border-color: yellow;
+}
+
+#benv{
+    text-align: center;
+    font-family: cursive;
+    font-size: 30px;
+    background-color: green;
+    border-radius: 25px;
+    border: 5px outset yellow;
+    width: 300px;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 15px;
+    margin-bottom: 0px;
+}
+
+#profilo{
+    width: 1250px;
+    height: auto;
+    margin-left: auto;
+    margin-right: auto;
+    background-color: green;
+    border-radius: 25px;
+    border: 3px outset gray;
+    margin-top: 15px;
+    margin-bottom: 25px; 
+    overflow: hidden;
+}
+
+#profilo button{
+    width: 100px;
+    height: 30px;
+    margin: 15px;
+    background-color: yellow;
+    text-align: center;
+    border-radius: 25px;
+    border: 3px outset gray;
+    overflow: hidden;
+}
+
+h1{
+    text-align: left;
+    color: white;
+    font-family: cursive;
+    font-size: 30px;
+    font-weight: 100;
+    margin-top: 0px;
+    margin-bottom: 0px;
+}
+
+ul{
+    margin-top: 0px;
+    font-family: cursive;
+    font-size: 15px;
+    font-weight: 100;
+}
+
+#general{
+    width: 1250px;
+    height: auto;
+    background-color: green;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 25px;
+    border-radius: 25px;
+    border: 10px outset gray;
+    overflow: hidden;
+}
+
+#sx{
+    width: 1000px;
+    float: left;
+}
+
+#dx{
+    width: 250px;
+    float: right;
+}
+
+#titolo{
+    float:left;
+    width: 1000px;
+    font-family: cursive;
+    font-size: 50px;
+    text-align: center;
+}
+
+#img{
+    float: right;
+    width: 250px;
+    height: 350px;
+    border-left-style:outset;
+    border-bottom-style: outset;
+    border-color: gray;
+}
+
+#rankeste{
+    float: left;
+    width: 1000px;
+    height: 70px;
+    margin-top: 15px;
+    margin-bottom: 15px;
+    overflow: hidden;
+    margin-left: 5px;
+}
+
+#rankred{
+    margin-top: 0px;
+    height: 30px;
+    background-color: yellow;
+    float: left;
+    text-align: center; 
+    font-family: cursive;
+    font-size: 20px;
+    border-top-right-radius: 25px;
+    border-bottom-right-radius: 25px;
+}
+
+#rankgreen{
+    margin-top: 0px;
+    height: 30px;
+    float: left;
+    text-align: center; 
+    font-family: cursive;
+    font-size: 20px;
+    border-top-right-radius: 25px;
+    border-bottom-right-radius: 25px;
+}
+
+#genere{
+    float: left;
+    margin-left: 5px;
+}
+
+#trama{
+    width: 950px;
+    height:auto;
+    overflow: hidden;
+    margin-right: 15px;
+    margin-top: 15px;
+    margin-bottom: 15px;
+    margin-left: 5px;    
+}
+
+#trama p{
+    text-align: left;
+    font-family: cursive;
+    font-size: 20px;
+    margin-left: 5px;
+}
+
+#genere,#direttore,#attori{
+    float: right;
+    width: 250px;
+    border-left-style:outset;
+    border-bottom-style: outset;
+    border-color: gray;
+}
+
+#scrivi{
+    float: left;
+    width: 900px;
+    height: 300px;
+    margin-left: 50px;;
+    margin-right: 50px;;
+    margin-top: 15px;
+    margin-bottom: 15px;
+    border-radius: 25px;
+    border-style: outset;
+    border-color: gray; 
+    overflow: hidden;
+}
+
+#scrivi h1{
+    text-align: center;
+}
+
+#commenti{
+    float: left;
+    width: 900px;
+    height: auto;
+    margin-left: 50px;;
+    margin-right: 50px;;
+    margin-top: 15px;
+    margin-bottom: 15px;
+    border-radius: 25px;
+    border-style: outset;
+    border-color: yellow;
+    overflow: hidden;
+}
+
+#commenti h1{
+    text-align: center;
+}
+
+.commento{
+    float: left;
+    width: 240px;
+    height: 150px;
+    border-radius: 25px;
+    border-style: outset;
+    border-color: gray;
+    margin: 25px;
+}
+
+.commento h3{
+    text-align: left;
+    margin-top: 3px;
+    padding-left: 10px;
+    height: 30px;
+    margin-bottom: 0px;    
+}
+
+.commento textarea{
+    width: 200px;
+    height: 90px;;
+    border-radius: 25px;
+    border-style: outset;
+    border-color: yellow;
+    border-width: 3px;
+    resize: none;
+    padding-left: 10px;
+    padding-right: 10px;
+    margin: 7px;    
+}
+
+#comm{
+    width: 800px;
+    height: 200px;
+    margin-left: 40px;
+    margin-right: 40px; 
+    border-radius: 25px;
+    padding: 10px;
+    resize: none;
+}
+
+#back{    
+    width: 200px;
+    margin-top: 25px;
+    margin-bottom: 25px;
+    margin-left: 400px;
+    float: left;
+    border-style: outset;
+    border-color: yellow;
+    border-width: 3px;
+    border-radius: 25px;
+    overflow: hidden;
+}
+
+#back img{    
+    float: left;
+    margin-top:5px;
+    margin-left: 88px;
+    text-align: center;
+}
+
+#back a{
+    text-decoration: none;
+}
+
+#back a:link,a:visited{
+    color:black;
+}
+
+#back p{
+    font-size: 20px;
+    font-family: cursive;
+    font-weight: 100;    
+}
+
+#bot{
+    width: auto;
+    margin-left: 415px;
+    margin-right: 415px;
+    border-radius: 25px;
+    margin-top: 5px;
+    margin-bottom: 5px;
+    background-color: yellow;
+}

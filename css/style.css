@@ -1,0 +1,128 @@
+body{
+    background-color: white;
+    width: auto;
+    font-family: sans-serif;
+    min-width: 950px;
+}
+
+#banner{    
+    position:relative;
+    text-align: center;
+    width: 100%;
+    height: 50px;
+    background-image: url(../img/bannerx.png);
+    background-repeat: repeat-x;
+    margin-bottom: 10px;
+}
+
+#centro{
+    position:relative;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 25px;
+    background-color: green;
+    width: 70%;
+    height: 500px;
+    min-width: 950px;
+    border-radius: 25px;
+}
+
+#centro h1{
+    text-align: center;
+    color: black;
+}
+
+fieldset {
+	background-color: #E0E0FF;
+	border: 2px outset gray;
+	border-radius: 25px;
+}
+
+#registrazione{    
+    float: left;
+    margin-left: 12%;
+    width: auto; 
+    margin-top: 25px;
+}
+
+#accesso{    
+    float: right;
+    margin-right: 12%;
+    width: auto; 
+    margin-top: 25px;
+}
+
+fieldset label.lab,
+fieldset .column {
+	float: left;
+	width: 11em;
+}
+
+legend{
+    background-color:yellow;
+    border-radius: 25px;
+    border: 2px outset gray;
+    text-align: left;
+}
+
+.lab{
+    text-align: left;
+}
+
+#nomeacc,#cognomeacc,#passacc,#nomereg,#cognomereg,#passreg,#genereregM,#genereregF,#giornoreg,#mesereg,#annoreg{
+	margin-bottom: 1em;
+    border-radius: 25px;
+}
+
+.bottone{
+    background-color: yellow;
+    border-radius: 25px;
+    border: 2px outset gray;
+    float: left;
+}
+
+
+#flash {
+    color: white;
+    text-align: center;
+    width: 50%;
+    height: 30px;
+    margin-top: 15px;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.show{
+    float: left;
+    font-size:10px;
+    margin-left: 176px;    
+}
+
+#w3c{
+    text-align: center;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 20px;
+}
+
+#logout{
+    margin: 10px;
+}
+
+#logout input{
+    font-family: cursive;
+    font-size: 30px;
+    width: 150px;
+    height: 50px;
+    margin-left: 46%;
+    margin-right: 46%;
+    border-radius: 25px;
+    border: 2px outset gray; 
+    background-color: yellow;
+}
+
+#errorereg,#erroreacc{
+    color: orangered;
+    font-family: monospace;
+    font-size: 20px;    
+}
